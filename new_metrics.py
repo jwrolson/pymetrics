@@ -1,6 +1,9 @@
 #!/usr/bin/env python
-import os, json
 from selenium import webdriver
+from datetime import date
+import json
+import os
+import time
 
 def get_browsers_timings(site):
 	driver = webdriver.Chrome()
